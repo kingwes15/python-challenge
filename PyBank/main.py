@@ -9,7 +9,6 @@ date = []
 ProfitLoss = []
 MoM = []
 
-
 with open(csvreadfile, "r", newline= "") as readfile:
     budget_data = csv.reader(readfile, delimiter = ",")
     net  = 0
